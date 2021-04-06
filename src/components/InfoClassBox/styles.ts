@@ -6,9 +6,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   min-width: ${px(260, 320)};
-  min-height: ${px(190, 320)};
+  min-height: ${px(180, 320)};
   flex-direction: column;
-  height: 100%;
 
   margin-right: 10px;
   margin-left: 10px;
@@ -37,13 +36,14 @@ export const Container = styled.div`
   @media (min-width: 1024px) {
     justify-content: start;
     min-width: ${px(300)};
-    min-height: ${px(330)};
+    height: ${px(330)};
   }
 
   > button {
     width: 80%;
     color: blue;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     padding: 15px;
     border-radius: 5px;
     background-color: white;

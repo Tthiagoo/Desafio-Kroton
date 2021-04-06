@@ -2,12 +2,12 @@
 import React from 'react';
 
 import ClassBox from '../InfoClassBox';
-import { Container, Titulo } from './styles';
+import { Container, Titulo, Content } from './styles';
 
 const InfoClasses: React.FC = () => {
   return (
-    <>
-      <Titulo />
+    <Content>
+      <Titulo>Titulo</Titulo>
       <Container>
         <ClassBox />
         <ClassBox />
@@ -18,7 +18,7 @@ const InfoClasses: React.FC = () => {
         <ClassBox />
         <ClassBox />
       </Container>
-    </>
+    </Content>
   );
 };
 export default InfoClasses;

@@ -8,7 +8,7 @@ export const ButtonMore = styled.button`
     display: flex;
     width: 30%;
     color: #ffad01;
-    margin-top: 10px;
+    margin-top: 70px;
     padding: 20px;
 
     border-radius: 5px;

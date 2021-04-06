@@ -46,7 +46,7 @@ export const Container = styled.div`
     }
     @media (min-width: 1024px) {
       align-self: flex-end;
-      width: 60%;
+      width: 40%;
     }
   }
 `;

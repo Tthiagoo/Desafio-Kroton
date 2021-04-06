@@ -8,10 +8,6 @@ const Details: React.FC = () => {
     <Container>
       <DetailsBox />
       <DetailsBox />
-      <DetailsBox />
-      <DetailsBox />
-      <DetailsBox />
-      <DetailsBox />
     </Container>
   );
 };

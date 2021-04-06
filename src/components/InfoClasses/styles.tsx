@@ -1,10 +1,18 @@
 import styled from 'styled-components';
 import px from '../../utils/responsive';
 
+export const Content = styled.div`
+  @media (min-width: 1024px) {
+    width: 98%;
+  }
+`;
+
 export const Titulo = styled.h2`
-  display: hidden;
+  font-size: 1.8rem;
+  display: none;
   @media (min-width: 768px) {
     display: flex;
+    margin-top: 10px;
   }
 `;
 export const Container = styled.div`
@@ -14,11 +22,8 @@ export const Container = styled.div`
   height: ${px(80, 320)};
   overflow-x: scroll;
   flex-direction: row;
-  //border: 1px solid red;
   height: 100%;
-  padding: 10px;
-
-  margin-top: 20px;
+  margin-top: 10px;
   align-items: center;
 
   @media (min-width: 768px) {
@@ -33,5 +38,6 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    overflow: hidden;
   }
 `;

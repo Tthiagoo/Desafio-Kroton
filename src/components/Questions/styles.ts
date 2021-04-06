@@ -2,9 +2,11 @@ import styled from 'styled-components';
 import px from '../../utils/responsive';
 
 export const Container = styled.div`
-  width: 1300px;
+  //width: 1300px;
+  // min-width: ${px(100, 320)};
+
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 0rem;
 
   @media (min-width: 1024px) {
     width: 100%;
@@ -64,12 +66,12 @@ export const Card = styled.div`
     color: #4f4f4f;
   }
   input {
-    width: 389px;
+    width: 390px;
     height: 52px;
     border: 1px solid #8d97a0;
     box-sizing: border-box;
     margin-top: 0.5rem;
-
+    padding-left: 17px;
     background: white;
     border-radius: 4px;
     margin-right: 1.2rem;
@@ -84,7 +86,7 @@ export const Card = styled.div`
     box-sizing: border-box;
     border-radius: 4px;
 
-    width: 380px;
+    width: 400px;
     height: 50px;
     margin-top: 0.5rem;
     padding: 1rem;
@@ -102,7 +104,7 @@ export const Card = styled.div`
       width: 100%;
     }
     select {
-      width: 274px;
+      width: 264px;
     }
   }
 `;

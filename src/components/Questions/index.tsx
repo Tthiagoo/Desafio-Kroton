@@ -26,6 +26,8 @@ const Questions: React.FC = () => {
             <label>Pergunta 3 ?</label>
             <select name="select" placeholder="Selecione">
               <option value="Resposta1">Resposta 1</option>
+              <option value="Resposta2">Resposta 2</option>
+              <option value="Resposta3">Resposta 3</option>
             </select>
           </Card>
 

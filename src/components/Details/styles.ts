@@ -27,5 +27,6 @@ export const Container = styled.div`
     min-height: ${px(180)};
     height: 100%;
     padding: 10px;
+    overflow-x: hidden;
   }
 `;
