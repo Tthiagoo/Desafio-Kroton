@@ -9,8 +9,5 @@ export const Container = styled.div`
   //margin: ${px(32)};
   //padding:${px(32)};
   max-width: 100%;
-  overflow-y:scroll;
-  
-
 
 `;
