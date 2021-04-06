@@ -11,5 +11,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org)
 - [Styled Components](https://www.styled-components.com/)
-
+- [ESlint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
