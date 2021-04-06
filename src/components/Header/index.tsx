@@ -5,8 +5,10 @@ import whats from '../../assets/whats.svg';
 const Header: React.FC = () => {
   return (
     <Box>
-      <img src={whats} alt="whats" />
-      <p>Fale Conosco</p>
+      <img src={whats} alt="Whatsapp" />
+      <a target="_blank" href="https://wa.me/11857466374" rel="noreferrer">
+        Entrar em contato
+      </a>
     </Box>
   );
 };

@@ -17,7 +17,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: white;
-  
 
   @media (min-width: 768px) {
     min-width: ${px(308, 768)};
@@ -40,8 +39,13 @@ export const Container = styled.div`
     border-radius: 5px;
     background-color: #0067f6;
     border: 0px;
+    transition: background-color 0.2s;
+    :hover {
+      color: white;
+      background-color: #0553bf;
+    }
     @media (min-width: 1024px) {
-      align-self:flex-end;
+      align-self: flex-end;
       width: 60%;
     }
   }

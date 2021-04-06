@@ -19,7 +19,7 @@ export const Container = styled.div`
   > img {
     width: 100%;
     margin-bottom: 15px;
-    align-self:start
+    align-self: start;
   }
   > p {
     margin-left: 10px;
@@ -35,7 +35,7 @@ export const Container = styled.div`
   }
 
   @media (min-width: 1024px) {
-    justify-content:start;
+    justify-content: start;
     min-width: ${px(300)};
     min-height: ${px(330)};
   }
@@ -50,11 +50,14 @@ export const Container = styled.div`
     border: 1px solid blue;
     align-self: center;
     font-weight: bold;
+    transition: background-color 0.2s;
+    :hover {
+      color: white;
+      background-color: #0553bf;
+    }
     @media (min-width: 1024px) {
       align-self: center;
       width: 80%;
     }
   }
 `;
-
-
