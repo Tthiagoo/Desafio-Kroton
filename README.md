@@ -4,7 +4,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deploy
- > [Veja uma visualização neste link!](https://kroton-web.netlify.app)
+ > [Veja uma visualização neste link!](https://kroton-deploy.netlify.app)
 
 ## Tecnologias utilizadas :arrow_down_small:
 
