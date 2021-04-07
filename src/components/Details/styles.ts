@@ -9,7 +9,6 @@ export const Container = styled.div`
   height: ${px(80, 320)};
   overflow-x: scroll;
   flex-direction: row;
-  //border: 1px solid red;
   height: 100%;
   padding: 10px;
  
