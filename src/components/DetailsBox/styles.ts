@@ -8,7 +8,6 @@ export const Container = styled.div`
   min-width: ${px(260, 320)};
   min-height: ${px(190, 320)};
   flex-direction: column;
-
   height: 100%;
   padding: 5px;
   margin-right: 10px;
@@ -53,8 +52,8 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   width: 90%;
-
   flex-direction: row;
+
   @media (min-width: 1024px) {
     width: 96%;
   }
@@ -66,7 +65,6 @@ export const Info = styled.div`
   min-height: 70%;
   margin-left: 10px;
   padding: 5px;
-
   flex-direction: column;
   align-items: start;
   > h3 {
