@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import px from '../../utils/responsive';
 
 export const Container = styled.div`
-  //width: 1300px;
-  // min-width: ${px(100, 320)};
 
   margin: 0 auto;
   padding: 0 0rem;
