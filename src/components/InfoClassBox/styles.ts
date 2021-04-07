@@ -8,7 +8,6 @@ export const Container = styled.div`
   min-width: ${px(260, 320)};
   min-height: ${px(180, 320)};
   flex-direction: column;
-
   margin-right: 10px;
   margin-left: 10px;
   border-radius: 8px;
