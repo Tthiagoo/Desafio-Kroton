@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import px from '../../utils/responsive';
 
 export const Container = styled.div`
-
   margin: 0 auto;
   padding: 0 0rem;
 
@@ -18,7 +17,6 @@ export const Content = styled.div`
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.23);
   border-radius: 8px;
   background: white;
-
   padding: 1.5rem;
 
   h1 {
@@ -39,7 +37,6 @@ export const Box = styled.div`
     color: white;
     border-radius: 5px;
     margin-left: 1.1rem;
-
     border: 0;
     background: #0067f6;
   }
@@ -83,7 +80,6 @@ export const Card = styled.div`
     border: 1px solid #8d97a0;
     box-sizing: border-box;
     border-radius: 4px;
-
     width: 400px;
     height: 50px;
     margin-top: 0.5rem;
